@@ -1,0 +1,23 @@
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+:root {
+    --margin-top: 100px;
+}
+
+button:focus {
+    box-shadow: 0;
+}
+
+textarea {
+    resize: none;
+    height: 130px;
+}
+
+
+@media(max-width:959px) {
+    #sobre{
+        text-align: center;
+    }
+}
